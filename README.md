@@ -9,7 +9,7 @@ Por fim, na camada *refined* é onde fica as tabelas utilizadas pelo time de *da
 
 Aqui está o diagrama da arquitetura proposta.
 
-
+## Questões levantadas:
  
 1. Total equipment failures that happened?
 
