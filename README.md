@@ -1,5 +1,6 @@
 # Data Engineering Interview Tech Case
-Neste case, foram migrados dados de sensores de uma FPSO de um bucket S3 da AWS para um bucket da GCP. Os dados que chegam à GCP estão no formato *.parquet*
+Neste case, foram migrados dados de sensores de uma FPSO de um bucket S3 da AWS para um bucket da GCP. Os dados que chegam à GCP estão no formato *.parquet*, visando uma melhor performance.
+Estando no storage da GCP, os dados alimentam external tables na *BigQuery*
 
 1. Total equipment failures that happened?
 
