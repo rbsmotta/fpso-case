@@ -1,5 +1,5 @@
 # Data Engineering Interview Tech Case
-Neste case, foram migrados dados de sensores de uma FPSO de um bucket S3 da AWS para um bucket da GCP. Os dados que chegam à GCP estão no formato *.parquet*, visando uma melhor performance.
+Neste case, através de uma [*Cloud Function*](https://github.com/rbsmotta/fpso-case/blob/main/images/Captura%20de%20Tela%20(11).png) da GCP foram migrados os arquivos [equipment_failure_sensors.txt](https://github.com/rbsmotta/fpso-case/blob/main/images/Captura%20de%20Tela%20(15).png), [equipment_sensors.csv](https://github.com/rbsmotta/fpso-case/blob/main/images/Captura%20de%20Tela%20(13).png), [equipment.json](https://github.com/rbsmotta/fpso-case/blob/main/images/Captura%20de%20Tela%20(14).png) contendo dados de sensores de uma FPSO de um [bucket S3](https://github.com/rbsmotta/fpso-case/blob/main/images/Captura%20de%20Tela%20(12).png) da AWS para um bucket da GCP. Os dados que chegam à GCP estão no formato *.parquet*, visando uma melhor performance. 
 
 Estando no storage da GCP, os dados alimentam external tables na *BigQuery* em uma camada "*raw*". Nessa camada os dados estão sem qualquer alteração ou tratamento.
 
