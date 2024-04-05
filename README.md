@@ -12,23 +12,15 @@ Aqui está o diagrama da arquitetura proposta.
 ## Questões levantadas:
  
 1. Total equipment failures that happened?
+   [print](https://github.com/rbsmotta/fpso-case/blob/main/images/Captura%20de%20Tela%20(3).png) e código
 
 2. Which equipment name had most failures?
-
+   print e código
+   
 3. Average amount of failures across equipment group, ordered by the number of failures in ascending order?
-
+   print e código
+   
 4.  Rank the sensors which present the most number of errors by equipment name in an equipment group.
+   print e código
 
-### Recommendations: 
-
->- Use OOP to structure your pipeline.
->- Use PEP or Black coding style.
->- Use a GIT provider for code versioning.
->- Diagram of your resolution(s).
-
-### Plus:
-
->- Tests.
->- Simulate a streaming pipeline.
->- Dockerize your app.
->- Orchestration architecture.
+[Cenário da matriz energética do Brasil](https://github.com/rbsmotta/projeto_final_soulcode)
